@@ -87,7 +87,7 @@ header {
 
 .logo-box {
     padding: 30px 30px;
-    background: #fff;
+    background: transparent;
     text-align: center;
 }
 
@@ -251,7 +251,6 @@ ul.drop-down li a:hover {
 }
 
 div.filter-box {
-    border-top: 1px solid #202426;
     border-bottom: 1px solid #1e282b;
     padding: 20px 24px;
 }
