@@ -96,6 +96,7 @@ header {
 }
 
 .logo-box {
+    background: linear-gradient(180deg, rgba(25, 32, 34, 1) 100%, rgb(36, 43, 46) 100%);
     padding: 30px 30px;
     text-align: center;
 }
@@ -259,8 +260,16 @@ ul.drop-down li {
 ul.drop-down li a:hover {
 }
 
+div.filter-box-about {
+    color: #ffffff;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 20px 24px;
+}
+
 div.filter-box {
-    border-bottom: 1px solid #1e282b;
+    background: linear-gradient(180deg, rgba(25, 32, 34, 1) 90%, rgb(36, 43, 46) 100%);
     padding: 20px 24px;
 }
 
