@@ -1629,8 +1629,12 @@ a.transparent-btn:hover {
   padding: 25px;
   opacity: 0;
   -webkit-transition: 0.3s all ease-out;
-  transition: 0.3s all ease-out;
+  transition: 0.3s all
+   ease-out;
 }
+
+
+
 .rs-portfolio .portfolio-item .portfolio-content:before {
   content: '';
   position: absolute;
