@@ -1583,7 +1583,9 @@ a.transparent-btn:hover {
     12. Portfolio
 -------------------------------------*/
 
-
+.rs-portfolio {
+  padding-bottom: 0px;
+}
 .rs-portfolio.dark-portfolio {
   background: #000;
 }
