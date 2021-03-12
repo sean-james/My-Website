@@ -1583,6 +1583,7 @@ a.transparent-btn:hover {
     12. Portfolio
 -------------------------------------*/
 
+
 .rs-portfolio.dark-portfolio {
   background: #000;
 }
@@ -1630,7 +1631,6 @@ a.transparent-btn:hover {
   transition: 0.3s all
    ease-out;
 }
-
 
 
 .rs-portfolio .portfolio-item .portfolio-content:before {
