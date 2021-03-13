@@ -1,0 +1,1 @@
+document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js'); if (!("ontouchstart" in document.documentElement)) { document.documentElement.className += " no-touch"; }
