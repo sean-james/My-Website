@@ -102,59 +102,64 @@
 			<p class="footer-text"></p>
 		</footer><!--END .wrap-->
 	</div>
-	<!--slider-->
-    <div id="modal" class="modal">
-        <div id="modal-content" class="modal-content"></div>
-        <button id="close-button" class="button button--close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-close-icon"></use></svg></button>
-    </div>
-    <div id="loading" class="loading"></div>
-    <div id="loading-body" class="loading loading--body loading--show"></div>
-
-        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-		    <div class="pswp__bg"></div>
-		    <div class="pswp__scroll-wrap">
-		        <div class="pswp__container">
-		            <div class="pswp__item"></div>
-		            <div class="pswp__item"></div>
-		            <div class="pswp__item"></div>
-		        </div>
-
-		        <div class="pswp__ui pswp__ui--hidden">
-		            <div class="pswp__top-bar">
-		                <div class="pswp__counter"></div>
-		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-		                <button class="pswp__button pswp__button--share" title="Share"></button>
-		                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-		                <div class="pswp__preloader">
-		                    <div class="pswp__preloader__icn">
-		                      <div class="pswp__preloader__cut">
-		                        <div class="pswp__preloader__donut"></div>
-		                      </div>
-		                    </div>
-		                </div>
-		            </div>
-
-		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-		                <div class="pswp__share-tooltip"></div>
-		            </div>
-
-		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-		            <div class="pswp__caption">
-		                <div class="pswp__caption__center"></div>
-		            </div>
-		        </div>
-		    </div>
-		</div>
-    	<script src="js/lightbox.min.js?v1.1">
-		</script> 
-		<script src="js/lib.min.js">
-		</script> 
-		<script src="js/lib.min.js">
-		</script> 
-		<script src="js/no-touch.js">
-		</script>
-		<script>this.top.location !== this.location && (this.top.location = this.location);</script>
+	<div class="modal" id="modal">
+		<div class="modal-content" id="modal-content"></div><button class="button button--close" id="close-button"><svg>
+		<use xlink:href="#shape-close-icon" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></button>
+	</div>
+	<div class="loading" id="loading"></div>
+	<div class="loading loading--body loading--show" id="loading-body"></div>
+	<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			
+            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="pswp__bg"></div>
+                <div class="pswp__scroll-wrap">
+                    <div class="pswp__container">
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                    </div>
+    
+                    <div class="pswp__ui pswp__ui--hidden">
+                        <div class="pswp__top-bar">
+                            <div class="pswp__counter"></div>
+                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                            <button class="pswp__button pswp__button--share" title="Share"></button>
+                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                            <div class="pswp__preloader">
+                                <div class="pswp__preloader__icn">
+                                  <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                            <div class="pswp__share-tooltip"></div>
+                        </div>
+    
+                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                        <div class="pswp__caption">
+                            <div class="pswp__caption__center"></div>
+                        </div>
+                    </div>
+                </div>
+	<script src="js/lightbox.min.js">
+	</script> 
+	<script src="js/lib.min.js">
+	</script> 
+	<script src="js/lib.min.js">
+	</script> 
+	<script src="js/no-touch.js">
+	</script>
 </body>
 </html>
