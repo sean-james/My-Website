@@ -777,4 +777,4 @@ function(a) {
 			}
 		};
 	return q() ? (y.emulate = !B, r[G] = f, r[H] = g, r[I] = h, y) : void 0
-}); < /script>
+});
