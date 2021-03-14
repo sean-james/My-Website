@@ -16,7 +16,7 @@
 </head>
 <body class="page-home is_home lightbox-enabled">
 	<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
-	<symbol enable-background="new 0 0 128 128" id="shape-close-icon" viewbox="0 0 128 128" xml:space="preserve">
+		<symbol enable-background="new 0 0 128 128" id="shape-close-icon" viewbox="0 0 128 128" xml:space="preserve">
 		<title>close-icon</title>
 		<polygon points="123.5429688,11.59375 116.4765625,4.5185547 64.0019531,56.9306641 11.5595703,4.4882813 4.4882813,11.5595703 56.9272461,63.9970703 4.4570313,116.4052734 11.5244141,123.4814453 63.9985352,71.0683594 116.4423828,123.5117188 123.5126953,116.4414063 71.0732422,64.0019531"></polygon>
 	</symbol></svg>
@@ -42,7 +42,7 @@
 		</header><!-- / .site-header -->
 		<section class="site-content">
 			<div class="projects-feed cf" id="ajax-projects-feed">
-				<article class="project brick cf" data-img-url="portfolio/brocap.png" id="project-1">
+				<article id="project-1" class="project brick cf" data-img-url="portfolio/brocap.png" id="project-1">
 					<a href="hipster.html" title="Hipster">
 					<div class="thumb"><img alt="Hipster" srcset="portfolio/brocap.png 1x, portfolio/brocap.png 2x"></div>
 					<div class="thumbnail-title-wrap">
@@ -96,13 +96,17 @@
 						</div>
 					</div></a>
 				</article><!--END .projects-feed-->
-			</div><!--END .site-content-->
-		</section>
-		<footer class="site-footer cf">
-			<p class="footer-text"></p>
-		</footer><!--END .wrap-->		
-	</div>
 
+		</div>
+                        
+        <!--END .site-content-->
+        </section>
+
+        <footer class="site-footer cf">
+            <p class="footer-text"> </p>
+        </footer>
+    <!--END .wrap-->
+    </div>
 
 	<!--slider-->
     <div id="modal" class="modal">
