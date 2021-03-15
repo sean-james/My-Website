@@ -521,8 +521,8 @@ div.image img {
 }
 .modal {
 	background: rgba(0, 0, 0, .15);
-	cursor: url(https://dunked.cdn.speedyrails.net/templates/apex/1/images/cross.ico), default;
-	cursor: -webkit-image-set(url(https://dunked.cdn.speedyrails.net/templates/apex/1/images/cross.ico) 1x, url(https://dunked.cdn.speedyrails.net/templates/apex/1/images/cross-2x.ico) 2x), default;
+	cursor: url(img/cross.ico), default;
+	cursor: -webkit-image-set(url(img/cross.ico) 1x, url(img/cross-2x.ico) 2x), default;
 	height: 100%;
 	position: absolute;
 	top: 0;

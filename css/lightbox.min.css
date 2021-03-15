@@ -101,7 +101,7 @@
 }
 .pswp__img {
 	width: auto;
-	height: 569px;
+	height: auto;
 	top: 0;
 	left: 0
 }
@@ -388,4 +388,3 @@
 .pswp__bg {
 	background: #fff
 }
-/*# sourceMappingURL=lightbox-dunked.min.css.map */
