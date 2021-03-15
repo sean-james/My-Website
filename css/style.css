@@ -671,6 +671,18 @@ div.image img {
 	.is_project .project {
 		padding-bottom: 80px
 	}
+
+	.fa-dribbble:hover {
+		color: #ea4c89
+	  }
+	
+	.fa-instagram:hover {
+		color: #8a3ab9
+	  }
+
+	.fa-linkedin:hover {
+		color: #0e76a8
+	}
 }
 @media only screen and (min-width:965px) {
 	.loading {
