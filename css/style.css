@@ -74,22 +74,23 @@ a, a:visited {
 	transition: color 0.1s ease-in-out
 }
 
-.fa-dribbble:hover, a {
-	color: #ea4c89
-  }
-
-.fa-instagram:hover, a {
-	color: #8a3ab9
-  }
-
-.fa-linkedin-in:hover, a {
-	color: #0e76a8
-}
-
 a:hover, a:active {
 	color: #111;
 	text-decoration: none
 }
+
+.fa-dribbble:hover {
+	color: #ea4c89
+  }
+
+.fa-instagram:hover {
+	color: #8a3ab9
+  }
+
+.fa-linkedin-in:hover {
+	color: #0e76a8
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: #111;
 	font-family: Karla, sans-serif;
