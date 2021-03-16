@@ -73,6 +73,19 @@ a, a:visited {
 	text-decoration: none;
 	transition: color 0.1s ease-in-out
 }
+
+.fa-dribbble:hover, a {
+	color: #ea4c89
+  }
+
+.fa-instagram:hover, a {
+	color: #8a3ab9
+  }
+
+.fa-linkedin-in:hover, a {
+	color: #0e76a8
+}
+
 a:hover, a:active {
 	color: #111;
 	text-decoration: none
@@ -672,17 +685,6 @@ div.image img {
 		padding-bottom: 80px
 	}
 
-	.fa-dribbble:hover {
-		color: #ea4c89
-	  }
-	
-	.fa-instagram:hover {
-		color: #8a3ab9
-	  }
-
-	.fa-linkedin-in:hover {
-		color: #0e76a8
-	}
 }
 @media only screen and (min-width:965px) {
 	.loading {
