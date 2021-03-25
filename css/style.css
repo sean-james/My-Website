@@ -79,6 +79,10 @@ a:hover, a:active {
 	text-decoration: none
 }
 
+.fa-envelope:hover {
+	color:rgb(17, 192, 90)
+  }
+
 .fa-dribbble:hover {
 	color: #ea4c89
   }
@@ -155,7 +159,7 @@ img {
 	min-height: 150px
 }
 .contact-form-wrap button {
-	background: #F0F;
+	background: rgb(34, 34, 34);
 	border: none;
 	color: #FFF;
 	cursor: pointer;
